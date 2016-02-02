@@ -12,15 +12,15 @@ add_custom=function(id, x, y, name, num_inputs, num_outputs, logic)</br>
 </br></br>
 
 <h6>add_*gate* parameter descriptions:</h6>
-id <str> - unique id for each gate</br>
-x <int> - x position in the svg element</br>
-y <int> - y position in the svg element</br>
-inv <boolean> - if true, gate becomes inverted</br>
-num_inputs <int> - number of inputs a gate has</br>
-xor <boolean> - if true, OR gate becomes XOR gate</br>
-name <str> - name of custom gate</br>
-num_outputs <int> - number of outputs for custom gate</br>
-logic <list<function>> - list of functions where each function represents an output; each function is passed 1 argument, a list of input states where list.length==num_inputs, and returns a boolean value. 
+id \<str\> - unique id for each gate</br>
+x \<int\> - x position in the svg element</br>
+y \<int\> - y position in the svg element</br>
+inv \<boolean\> - if true, gate becomes inverted</br>
+num_inputs \<int\> - number of inputs a gate has</br>
+xor \<boolean\> - if true, OR gate becomes XOR gate</br>
+name \<str\> - name of custom gate</br>
+num_outputs \<int\> - number of outputs for custom gate</br>
+logic \<list\<function\>\> - list of functions where each function represents an output; each function is passed 1 argument, a list of input states where list.length==num_inputs, and returns a boolean value. 
 </br></br>
 
 
